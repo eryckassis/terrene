@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 @theme {
+  /* Colors - Paleta do Terrene */
   --color-base-100: rgb(242, 237, 230);
   --color-base-200: rgb(204, 200, 194);
   --color-base-250: rgb(179, 167, 152);
@@ -10,11 +11,14 @@
   --color-base-450: rgb(31, 29, 29);
   --color-base-500: rgb(20, 19, 19);
 
+  /* Fonts */
   --font-sans: "Manrope", system-ui, sans-serif;
   --font-mono: "DM Mono", ui-monospace, monospace;
 
+  /* Spacing */
   --spacing-container: clamp(1rem, 5vw, 6rem);
 
+  /* Transitions */
   --ease-hop: cubic-bezier(0.9, 0, 0.1, 1);
   --duration-slow: 1000ms;
   --duration-normal: 500ms;
@@ -39,6 +43,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+
   img {
     max-width: 100%;
     height: auto;
