@@ -27,5 +27,4 @@ export interface ContractInfo {
   label: string;
   value: string;
   href?: string;
-  index?: string;
 }
